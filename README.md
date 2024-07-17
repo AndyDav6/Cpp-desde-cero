@@ -1,4 +1,4 @@
-Aqui mostrare mi aprendizaje de python desde cero. :D
+Aqui mostrare mi aprendizaje de C++ desde cero. :D
 
 Aplicando los fundamentos de la programacion
 y asi mismo pasando por la varios aspectos.
@@ -25,4 +25,4 @@ INTERMEDIO/AVANZADO
 - Algoritmos
 - DOM
 
-REPASO DE MI RECORRIDO POR EL LENGUAJE DE PYTHON
+REPASO DE MI RECORRIDO POR EL LENGUAJE DE C++
