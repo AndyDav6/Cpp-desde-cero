@@ -1,0 +1,37 @@
+OPERADORES EN C++
+
+Operadores Aritmeticos
+Estos operadores realizan operaciones matemáticas básicas.
+
+    + : Suma
+    - : Resta
+    * : Multiplicación
+    / : División
+    % : Módulo (resto de la división entera)
+    ++ : Incremento (incrementa en 1)
+    -- : Decremento (decrementa en 1)
+
+Operadores de Asignacion
+Estos operadores asignan valores a variables.
+
+    = : Asignación simple
+    += : Suma y asignación
+    -= : Resta y asignación
+    *= : Multiplicación y asignación
+    /= : División y asignación
+    %= : Módulo y asignación
+    <<= : Desplazamiento a la izquierda y asignación
+    >>= : Desplazamiento a la derecha y asignación
+    &= : AND bit a bit y asignación
+    |= : OR bit a bit y asignación
+    ^= : XOR bit a bit y asignación
+
+Operadores de Relacionales
+Estos operadores comparan dos valores y devuelven un valor booleano (true o false).
+
+    == : Igualdad
+    != : Desigualdad
+    > : Mayor que
+    < : Menor que
+    >= : Mayor o igual que
+    <= : Menor o igual que
