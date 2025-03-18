@@ -25,5 +25,5 @@ int main()
 
 // sqrt es la equivalencia de la raiz cuadrada
 /*
-pow:
+pow: es la equivalencia a elevado al cuadrado o cubo
 */
