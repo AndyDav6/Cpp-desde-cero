@@ -15,7 +15,7 @@ int main() {
 }
 ```
 
-El encabezado de **Cpp** funciona de la siguiente manera:
+El encabezado de **C++** funciona de la siguiente manera:
 
 ### 1. `#include <iostream>`
 
@@ -83,45 +83,86 @@ Es la **función principal**, punto de entrada obligatorio en todo programa C++.
 
 ## **01 - Tipos de datos**
 
-Los tipos de datos que hay en C++ son los tipos datos primitivos
+Los **tipos de datos** le indican al compilador qué tipo de información va a almacenar una variable (números, letras, decimales, etc.). C++ es un lenguaje de **tipado fuerte** (una vez defines el tipo, no puede cambiar).
 
-- Enteros **(int)**:
+1. Enteros **(`int`)**: almacena numeros **enteros** sin decimales
 
 ```Cpp
 #include <iostream>
 
 int main() {
     int mi_numero_entero = 10;
+    int mi_num2 = 935752;
+
+    return 0;
 }
 ```
 
-- Flotantes **(float)**:
+2. Flotantes **(`float`)**: almacena numeros **decimales** (coma flotante) con precisión simple de 6-7 dígitos decimales.
 
 ```cpp
 #include <iostream>
 
 int main() {
     float mi_numero_flotante = 11.25;
+
+    return 0;
 }
 ```
 
-- Double:
+3. Doble presicion **(`double`)**: almacena números **decimales** con doble precisión de 15-16 dígitos decimales, es el más usado para decimales.
 
 ```cpp
 #include <iostream>
 
 int main() {
     double mi_numero_fdouble = 11.255285582;
+
+    return 0;
 }
 ```
 
-- Caracter **(char)**:
+4. Caracter **(`char`)**: almacena **UN SOLO** carácter ya sea una letra, número, símbolo usando comillas **SIMPLE** `' '`.
 
 ```cpp
 #include <iostream>
 
 int main() {
-    char mi_caracter = 'A'
+    char mi_caracter = 'A';
+    char mi_numero = '7';
+    char mi_simbolo = '$';
+
+    return 0;
+}
+```
+
+4. Booleano **(`bool`)**: almacena valores de **verdadero/falso** (lógica binaria).
+
+```cpp
+#include <iostream>
+
+int main() {
+    bool mi_booleanoV = true
+    bool mi_booleanoF = false
+
+    return 0;
+}
+```
+
+5. Sin valor **(`void`)**: representa la **ausencia de tipo**; no se usa para variables, solo para funciones.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+void mostrar_mensaje() {
+    cout<<"Hola Mundo" <<endl;
+}
+
+int main() {
+    mostrar_mensaje();
+
+    return 0;
 }
 ```
 
