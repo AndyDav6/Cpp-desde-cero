@@ -1,8 +1,87 @@
-# Cpp desde cero
+# **Cpp desde cero**
 
-## 00 - Hola Mundo
+## **00 - Hola Mundo**
 
-## 01 - Tipos de datos
+El "Hola Mundo" o "Hello World" es el programa mas basico y tradicional utilizado para mostrar el "Hola Mundo" en pantalla. Se uso por primera vez en el libro _"C el lenguaje de programacion"_ de Dennis Ritchie.
+
+```Cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout<<"Hola Mundo" <<endl;
+
+    return 0;
+}
+```
+
+El encabezado de **Cpp** funciona de la siguiente manera:
+
+### 1. `#include <iostream>`
+
+**Directiva de preprocesador** que le dice al compilador: "antes de compilar, toma todo el contenido de la biblioteca `iostream` y pégalo aquí".
+
+- `#include`: Es la instrucción para incluir archivos externos
+- `iostream`: Input/Output **stream** (es el flujo de entrada/salida)
+- Contiene definiciones de: `cout`, `cin`, `cerr`, `endl`, etc.
+- Sin esta línea, no podrías usar `cout` para mostrar texto.
+
+### 2. `using namespace std;`
+
+Declaración que permite usar elementos de la biblioteca estándar sin prefijo `std::`.
+
+- `namespace std` : Espacio de nombres donde viven todos los elementos estándar de Cpp.
+- Sin esta línea, tendrías que escribir `std::cout` y `std::endl`.
+
+### 3. `int main() { ... }`
+
+Es la **función principal**, punto de entrada obligatorio en todo programa C++.
+
+- `int`: Tipo de retorno (integer - entero)
+
+- `main`: Nombre fijo que el sistema operativo busca al ejecutar
+
+- `()`: Paréntesis de función (pueden contener parámetros)
+
+- `{ ... }`: Cuerpo de la función (código a ejecutar)
+
+> [!IMPORTANT]
+> Todo programa en C++ debe tener EXACTAMENTE una función main
+
+### 4. `cout<<"Hola Mundo <<endl;"`
+
+**Instrucción de salida** que muestra texto en la consola:
+
+- `cout` : Character output - objeto que representa la salida estándar (generalmente la pantalla)
+
+- `<<` : Operador de inserción (envía datos hacia cout)
+
+- `"Hola Mundo"` : String literal (cadena de texto fija)
+
+- `endl` : End line - inserta un salto de línea Y vacía el búfer (fuerza el envío inmediato a pantalla)
+  - Alternativa: `"\n"` (solo salto de línea, más eficiente)
+
+- `;` : Punto y coma - termina la instrucción (obligatorio en C++)
+
+### 5. `return 0;`
+
+**Valor de retorno** que indica al sistema operativo cómo terminó el programa.
+
+- `return`: Palabra clave para devolver un valor
+
+- `0`: Código de éxito (convención: 0 = todo bien), si sale valores diferentes a 0, indican diferentes tipos de errores
+
+> [!TIP]
+> Conceptos claves adicionales:
+> | Simbolo | Significado | Uso |
+> | ------- | --------------------- | ----------------------------------- |
+> | `#` | Preprocesador | Se ejecuta ANTES de la compilación |
+> | `//` | Comentario de línea | Ignorado por el compilador |
+> | `/* */` | Comentario multilínea | Para explicaciones largas |
+> | `<>` | Include de sistema | Busca en directorios del compilador |
+> | `""` | Include local | Busca en el directorio actual |
+
+## **01 - Tipos de datos**
 
 Los tipos de datos que hay en C++ son los tipos datos primitivos
 
@@ -46,10 +125,10 @@ int main() {
 }
 ```
 
-## 02 - Entrada de datos
+## **02 - Entrada de datos**
 
-## 03 - Expresiones
+## **03 - Expresiones**
 
-## 04 - Condicionales
+## **04 - Condicionales**
 
-## 05 - Ciclos
+## **05 - Ciclos**
