@@ -168,6 +168,40 @@ int main() {
 
 ## **02 - Entrada de datos**
 
+La **entrada de datos** es cómo el programa recibe información del usuario mientras se ejecuta. Es como cuando alguien te pregunta tu nombre y tú lo escribes.
+
+### El objeto `cin`:
+
+**`cin`** significa **"character input"** (entrada de caracteres) y es el objeto que C++ usa para leer lo que el usuario escribe en el teclado.
+
+- ¿Como funciona?
+
+1. El programa se detiene y espera a que el usuario escriba algo
+
+2. El usuario escribe un valor y presiona **ENTER**
+
+3. `cin` guarda ese valor en la variable
+
+4. El programa continúa ejecutándose
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int mmain() {
+    string nombre;
+
+    cout<<"Ingresa tu nombre: ";
+    cin>>nombre;
+
+    cout<<"Hola, " <<nombre <<endl;
+    return 0;
+}
+```
+
+> El `cin` sirve para ingresar datos en pantalla y `cout` es para mostrar datos en pantalla
+
 ## **03 - Expresiones**
 
 ## **04 - Condicionales**
