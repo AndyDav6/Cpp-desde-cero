@@ -175,14 +175,13 @@ La **entrada de datos** es cómo el programa recibe información del usuario mie
 **`cin`** significa **"character input"** (entrada de caracteres) y es el objeto que C++ usa para leer lo que el usuario escribe en el teclado.
 
 - ¿Como funciona?
+  1. El programa se detiene y espera a que el usuario escriba algo
 
-1. El programa se detiene y espera a que el usuario escriba algo
+  2. El usuario escribe un valor y presiona **ENTER**
 
-2. El usuario escribe un valor y presiona **ENTER**
+  3. `cin` guarda ese valor en la variable
 
-3. `cin` guarda ese valor en la variable
-
-4. El programa continúa ejecutándose
+  4. El programa continúa ejecutándose
 
 ```cpp
 #include <iostream>
@@ -200,7 +199,7 @@ int mmain() {
 }
 ```
 
-> El `cin` sirve para ingresar datos en pantalla y `cout` es para mostrar datos en pantalla
+> El `cin` sirve para ingresar datos en pantalla y `cout` es para mostrar datos en pantalla.
 
 ## **03 - Expresiones**
 
