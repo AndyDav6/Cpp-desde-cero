@@ -1,4 +1,6 @@
-// Escribe la siguiente expresion en C++: a/b +1. EXPRESIONES
+// EXPRESIONES
+
+// Escribe la siguiente expresion en C++: a/b +1.
 
 #include <iostream>
 

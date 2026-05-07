@@ -81,7 +81,13 @@ Es la **función principal**, punto de entrada obligatorio en todo programa C++.
 > | `<>` | Include de sistema | Busca en directorios del compilador |
 > | `""` | Include local | Busca en el directorio actual |
 
-## **01 - Tipos de datos**
+## **01 - Variables y tipos de datos**
+
+### **Variables**
+
+Una variable es un espacio de almacenamiento nombrado en la memoria RAM del ordenador (como una caja etiquetada) que contiene un valor capaz de cambiar durante la ejecución de un programa.
+
+### **Tipos de datos**
 
 Los **tipos de datos** le indican al compilador qué tipo de información va a almacenar una variable (números, letras, decimales, etc.). C++ es un lenguaje de **tipado fuerte** (una vez defines el tipo, no puede cambiar).
 
@@ -203,6 +209,46 @@ int mmain() {
 
 ## **03 - Expresiones**
 
+Una **expresión** es una combinación de **[operadores](./Operadores.md)**, **[variables](#variables)** y **valores** que C++ puede calcular para obtener un resultado. Es como una operación matemática que hace la computadora. Imaginemos a una expresion como como una pregunta matematica que le haces al programa:
+
+```cpp
+#include <iostream>
+
+int main() {
+    int num = 2 + 4 // ¿Cuanto es 2 + 4?
+}
+```
+
 ## **04 - Condicionales**
 
-## **05 - Ciclos**
+Los **condicionales** son estructuras de control que permiten que un programa **tome decisiones** basadas en condiciones. Es como cuando tomas decisiones en la vida real, por ejemplo: "**Si** llueve llevare una sombrilla, **si no** llueve lo dejare".
+
+> [!IMPORTANT]
+> Sin condicionales, los programas serían **secuenciales y aburridos** (harian siempre lo mismo). Con condicionales, los programas pueden **reaccionar** según la entrada del usuario o el estado del programa.
+
+1. ### Condicional `if/else`:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    return 0;
+}
+```
+
+2. ### Condicional: `switch`:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+    return 0;
+}
+```
+
+## **05 - Ciclos o Bucles**
